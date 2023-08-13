@@ -12,15 +12,30 @@ Represents a packet containing file information and content.
 - `serialize()`: Serialize the packet for network transmission.
 - `deserialize(data)`: Deserialize received data into a `FilePacket` object.
 
-# NetworkManager
+### `BluetoothDevice`
 
-Handles network communication, both sending and receiving.
+A class that represents a Bluetooth device. This class can encapsulate device attributes and methods related to device management.
 
-## Methods:
-- `createSocket()`: Create a socket for communication.
-- `connect(address, port)`: Establish a network connection.
-- `sendData(data)`: Send data over the network.
-- `receiveData()`: Receive data from the network.
+#### Attributes:
+- `address`: The Bluetooth MAC address of the device.
+- `name`: The name of the device.
+
+#### Methods:
+- `connect()`: Initiate a connection to the device.
+- `disconnect()`: Close the connection to the device.
+- `sendData(data)`: Send data to the connected device.
+- `receiveData()`: Receive data from the connected device.
+
+### `BluetoothManager`
+
+A class responsible for managing Bluetooth-related operations and device discovery.
+
+#### Methods:
+- `scanForDevices()`: Start scanning for nearby Bluetooth devices.
+- `stopScan()`: Stop the device scanning process.
+- `getDiscoveredDevices()`: Retrieve a list of discovered devices.
+- `connectToDevice(device)`: Initiate a connection to a specific device.
+- `disconnectFromDevice(device)`: Disconnect from a connected device.
 
 # FileManager
 
