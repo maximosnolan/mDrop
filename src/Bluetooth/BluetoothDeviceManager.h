@@ -10,15 +10,22 @@
 #include <string>
 #include <vector>
 
+
 // Utils
 #include "../Utils/Singleton.h"
 
 #define MAX_NUM_DEVICES 256
 
-typedef struct {
-	char name[20];
-	char addr[18]; // the MAC address in "XX:XX:...:XX" format
-} discovered_dev_t; 
+class BlueToothDeviceType
+{
+public:
+    BlueToothDeviceType() = default;
+    BlueToothDeviceType(const char * DeviceName, const char * MACAddress); 
+private:
+    std::string mDeviceName; 
+    std::string mMACAddress; 
+};
+
 
 class BluetoothDeviceManager : public Singleton<BluetoothDeviceManager>
 {
@@ -30,7 +37,7 @@ public:
     [[nodiscard]] const std::vector<std::string> GetDeviceNames() const;
     [[nodiscard]] std::string GetDeviceFriendlyNameFromMacAddress(const char * targetMacAddress);
 private:
-    BluetoothDeviceManager();
-    ~BluetoothDeviceManager();
-    std::vector<std::string> mDeviceNames;
+    BluetoothDeviceManager() = default;
+    ~BluetoothDeviceManager() = default;
+    std::vector<BlueToothDeviceType> mDeviceNames;
 };

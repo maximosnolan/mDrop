@@ -19,7 +19,7 @@ int32_t main()
 {
     BluetoothDeviceManager& bluetoothDeviceManager = BluetoothDeviceManager::Instance();
     bluetoothDeviceManager.ScanDevices();
-    bluetoothDeviceManager.LogDevices();
+    //bluetoothDeviceManager.LogDevices();
     std::cout << "MAIN FINISED\n";
     return 0;
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.o CMakeFiles/Bluetooth.dir/src/Bluetooth/BluetoothDeviceManager.cpp.o CMakeFiles/Bluetooth.dir/src/Logger/Logger.cpp.o CMakeFiles/Bluetooth.dir/src/Utils/Singleton.cpp.o -o Bluetooth  -lbluetooth 
