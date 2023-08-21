@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/BluetoothScanner.dir/src/Main/Main.cpp.o CMakeFiles/BluetoothScanner.dir/src/Bluetooth/BluetoothDeviceManager.cpp.o CMakeFiles/BluetoothScanner.dir/src/Logger/Logger.cpp.o -o BluetoothScanner  -lbluetooth -lfmt::fmt 
