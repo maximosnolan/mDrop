@@ -81,12 +81,12 @@ clean: CMakeFiles/Bluetooth.dir/clean
 CMakeFiles/Bluetooth.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bluetooth.dir/build.make CMakeFiles/Bluetooth.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bluetooth.dir/build.make CMakeFiles/Bluetooth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maximos/mDrop/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Bluetooth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maximos/mDrop/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Bluetooth"
 .PHONY : CMakeFiles/Bluetooth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Bluetooth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximos/mDrop/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximos/mDrop/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Bluetooth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximos/mDrop/build/CMakeFiles 0
 .PHONY : CMakeFiles/Bluetooth.dir/rule

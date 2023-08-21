@@ -201,6 +201,30 @@ src/Main/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bluetooth.dir/build.make CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.s
 .PHONY : src/Main/Main.cpp.s
 
+src/Networking/NetworkManager.o: src/Networking/NetworkManager.cpp.o
+.PHONY : src/Networking/NetworkManager.o
+
+# target to build an object file
+src/Networking/NetworkManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bluetooth.dir/build.make CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.o
+.PHONY : src/Networking/NetworkManager.cpp.o
+
+src/Networking/NetworkManager.i: src/Networking/NetworkManager.cpp.i
+.PHONY : src/Networking/NetworkManager.i
+
+# target to preprocess a source file
+src/Networking/NetworkManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bluetooth.dir/build.make CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.i
+.PHONY : src/Networking/NetworkManager.cpp.i
+
+src/Networking/NetworkManager.s: src/Networking/NetworkManager.cpp.s
+.PHONY : src/Networking/NetworkManager.s
+
+# target to generate assembly for a file
+src/Networking/NetworkManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bluetooth.dir/build.make CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.s
+.PHONY : src/Networking/NetworkManager.cpp.s
+
 src/Utils/Singleton.o: src/Utils/Singleton.cpp.o
 .PHONY : src/Utils/Singleton.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... src/Main/Main.o"
 	@echo "... src/Main/Main.i"
 	@echo "... src/Main/Main.s"
+	@echo "... src/Networking/NetworkManager.o"
+	@echo "... src/Networking/NetworkManager.i"
+	@echo "... src/Networking/NetworkManager.s"
 	@echo "... src/Utils/Singleton.o"
 	@echo "... src/Utils/Singleton.i"
 	@echo "... src/Utils/Singleton.s"

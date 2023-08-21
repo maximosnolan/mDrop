@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Bluetooth.dir/src/Logger/Logger.cpp.o.d"
   "CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.o"
   "CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.o.d"
+  "CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.o"
+  "CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.o.d"
   "CMakeFiles/Bluetooth.dir/src/Utils/Singleton.cpp.o"
   "CMakeFiles/Bluetooth.dir/src/Utils/Singleton.cpp.o.d"
 )

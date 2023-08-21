@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/maximos/mDrop/src/Bluetooth/BluetoothDeviceManager.cpp" "CMakeFiles/Bluetooth.dir/src/Bluetooth/BluetoothDeviceManager.cpp.o" "gcc" "CMakeFiles/Bluetooth.dir/src/Bluetooth/BluetoothDeviceManager.cpp.o.d"
   "/home/maximos/mDrop/src/Logger/Logger.cpp" "CMakeFiles/Bluetooth.dir/src/Logger/Logger.cpp.o" "gcc" "CMakeFiles/Bluetooth.dir/src/Logger/Logger.cpp.o.d"
   "/home/maximos/mDrop/src/Main/Main.cpp" "CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.o" "gcc" "CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.o.d"
+  "/home/maximos/mDrop/src/Networking/NetworkManager.cpp" "CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.o" "gcc" "CMakeFiles/Bluetooth.dir/src/Networking/NetworkManager.cpp.o.d"
   "/home/maximos/mDrop/src/Utils/Singleton.cpp" "CMakeFiles/Bluetooth.dir/src/Utils/Singleton.cpp.o" "gcc" "CMakeFiles/Bluetooth.dir/src/Utils/Singleton.cpp.o.d"
   )
 

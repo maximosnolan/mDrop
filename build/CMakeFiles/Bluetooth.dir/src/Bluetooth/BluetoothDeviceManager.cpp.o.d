@@ -148,9 +148,10 @@ CMakeFiles/Bluetooth.dir/src/Bluetooth/BluetoothDeviceManager.cpp.o: \
  /usr/include/c++/12/ratio /usr/include/c++/12/limits \
  /usr/include/c++/12/ctime /usr/include/c++/12/bits/parse_numbers.h \
  /usr/include/c++/12/bits/std_mutex.h \
- /usr/include/c++/12/bits/unique_lock.h /usr/include/c++/12/iostream \
- /usr/include/c++/12/ostream /usr/include/c++/12/ios \
- /usr/include/c++/12/bits/ios_base.h \
+ /usr/include/c++/12/bits/unique_lock.h \
+ /home/maximos/mDrop/src/Bluetooth/../Logger/Logger.h \
+ /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/bits/ios_base.h \
  /usr/include/c++/12/bits/locale_classes.h \
  /usr/include/c++/12/bits/locale_classes.tcc \
  /usr/include/c++/12/streambuf /usr/include/c++/12/bits/streambuf.tcc \
@@ -163,9 +164,15 @@ CMakeFiles/Bluetooth.dir/src/Bluetooth/BluetoothDeviceManager.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/bluetooth/bluetooth.h \
- /usr/include/string.h /usr/include/strings.h /usr/include/byteswap.h \
- /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/fstream \
+ /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/chrono \
+ /usr/include/c++/12/sstream /usr/include/c++/12/bits/sstream.tcc \
+ /usr/include/bluetooth/bluetooth.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/byteswap.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
  /usr/include/x86_64-linux-gnu/bits/socket_type.h \

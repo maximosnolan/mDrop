@@ -161,4 +161,36 @@ CMakeFiles/Bluetooth.dir/src/Main/Main.cpp.o: \
  /usr/include/c++/12/bits/parse_numbers.h \
  /usr/include/c++/12/bits/std_mutex.h \
  /usr/include/c++/12/bits/unique_lock.h \
- /home/maximos/mDrop/src/Main/Main.h
+ /home/maximos/mDrop/src/Main/../Logger/Logger.h \
+ /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/chrono \
+ /usr/include/c++/12/sstream /usr/include/c++/12/bits/sstream.tcc \
+ /home/maximos/mDrop/src/Main/../Networking/NetworkManager.h \
+ /usr/include/c++/12/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/bluetooth/bluetooth.h \
+ /usr/include/byteswap.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/bluetooth/rfcomm.h
